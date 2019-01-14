@@ -1,0 +1,4 @@
+useDynLib(cistem, .registration=TRUE)
+export(cistem)
+export(cisegment)
+importFrom(Rcpp, evalCpp)

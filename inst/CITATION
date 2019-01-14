@@ -1,0 +1,13 @@
+citHeader("To cite cistem in publications use:")
+
+citEntry(entry = "InProceedings",
+  title        = "Developing a Stemmer for German Based on a Comparative Analysis of Publicly Available Stemmers",
+  author       = personList(as.person("Weissweiler Leonie"), as.person("Fraser Alexander")),
+  booktitle    = "Language Technologies for the Challenges of the Digital Age",
+  year         = "2018",
+  url          = "https://link.springer.com/chapter/10.1007/978-3-319-73706-5_8",
+  publisher    = "Springer International Publishing",
+  textVersion  = paste("Weissweiler Leonie, Fraser Alexander (2018).",
+        "Developing a Stemmer for German Based on a Comparative Analysis of Publicly Available Stemmers",
+        "https://link.springer.com/chapter/10.1007/978-3-319-73706-5_8.")
+)

@@ -1,0 +1,13 @@
+Package: cistem
+Type: Package
+Title: A 'Stemmer' for German
+Version: 1.0
+Authors@R: c( person("Florian", "Schwendinger", role = c("aut", "cre"), email = "FlorianSchwendinger@gmx.at"),
+              person("Leonie", "Weissweiler", role = c("aut", "cph")) )
+Description: 'CISTEM' is a stemming algorithm for the German language,
+	the algorithm is available for different languages at
+	<https://github.com/LeonieWeissweiler/CISTEM>. This package contains
+	an interface to the 'C++' version of the code.
+License: GPL (>= 2)
+Imports: Rcpp (>= 0.12.17)
+LinkingTo: Rcpp
